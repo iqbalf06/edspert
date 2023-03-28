@@ -1,0 +1,17 @@
+.footer {
+    width: 200vh !important; 
+    height: 70vh !important; 
+}
+
+.logo {
+    max-width: 40vh;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.address {
+    max-width: 60vh;
+    margin-top: 10%;
+    margin-left: 8%;
+    text-align: left;
+}
