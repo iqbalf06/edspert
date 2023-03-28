@@ -1,0 +1,23 @@
+.logo {
+    max-width: 20vh;
+}
+
+.navbg {
+    background-color: #152A46;
+    opacity: 0.9;
+}  
+
+.navitemparent {
+    justify-content: end;
+    margin: auto;
+}
+
+.navitem {
+    justify-content: end;
+}
+
+.navdropdown {
+    padding-right: 5vh;
+    color: white !important;
+}
+

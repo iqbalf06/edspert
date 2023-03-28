@@ -1,0 +1,12 @@
+.hero {
+    height: auto !important;
+    max-width: 100% !important;
+}
+
+.girl {
+    align-items: center;
+    width: 30%;
+    top: 15.5%;
+    right: 15%;
+}
+
