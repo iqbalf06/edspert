@@ -2,7 +2,9 @@ import React from "react";
 // import bgfooter from "../../assets/img/footer.png";
 // import { Image, Row, Col } from "react-bootstrap";
 // import style from "./footer.module.css";
-// import logo from "../../assets/img/logo_Edspert.png";
+import logo from "../../assets/img/logo_Edspert.png";
+import style from "./footer.module.css";
+
 
 function Footer() {
   return (
@@ -26,7 +28,7 @@ function Footer() {
         <footer class="text-center text-lg-start bg-white text-muted">
           <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div class="me-5 d-none d-lg-block">
-              <span>Get connected with us on social networks:</span>
+              {/* <span>Get connected with us on social networks:</span> */}
             </div>
 
             <div>
@@ -55,82 +57,71 @@ function Footer() {
             <div class="container text-center text-md-start mt-5">
               <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem me-3 text-secondary"></i>Company name
-                  </h6>
+                  <img className={style.logo} src={logo}/>
+                  {/* <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3 text-secondary"></i>
+                  </h6> */}
                   <p>
-                    Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.
+                  Jl. Watugede No.58, Wonorejo, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581
                   </p>
                 </div>
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                  <h6 class="fw-bold mb-4">Program</h6>
                   <p>
-                    <a href="#!" class="text-reset">
-                      Angular
+                    <a href="#!" class="text-reset text-decoration-none">
+                      Online Course
                     </a>
                   </p>
                   <p>
-                    <a href="#!" class="text-reset">
-                      React
+                    <a href="#!" class="text-reset text-decoration-none">
+                      Mini Bootcamp
                     </a>
                   </p>
                   <p>
-                    <a href="#!" class="text-reset">
-                      Vue
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">
-                      Laravel
+                    <a href="#!" class="text-reset text-decoration-none">
+                      Bootcamp
                     </a>
                   </p>
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                  <h6 class="fw-bold mb-4">Bidang Ilmu</h6>
                   <p>
-                    <a href="#!" class="text-reset">
-                      Pricing
+                    <a href="#!" class="text-reset text-decoration-none">
+                      Digital Marketing
                     </a>
                   </p>
                   <p>
-                    <a href="#!" class="text-reset">
-                      Settings
+                    <a href="#!" class="text-reset text-decoration-none">
+                      Product Management
                     </a>
                   </p>
                   <p>
-                    <a href="#!" class="text-reset">
-                      Orders
+                    <a href="#!" class="text-reset text-decoration-none">
+                      English
                     </a>
                   </p>
                   <p>
-                    <a href="#!" class="text-reset">
-                      Help
+                    <a href="#!" class="text-reset text-decoration-none">
+                      Programming
                     </a>
                   </p>
                 </div>
 
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                  <h6 class="fw-bold mb-4">Tentang Edspert</h6>
                   <p>
-                    <i class="fas fa-home me-3 text-secondary"></i> New York, NY
-                    10012, US
+                    <i class="fas fa-home me-3 text-secondary"></i> Bantuan
                   </p>
                   <p>
                     <i class="fas fa-envelope me-3 text-secondary"></i>
-                    info@example.com
+                    Kontak Kami
                   </p>
                   <p>
-                    <i class="fas fa-phone me-3 text-secondary"></i> + 01 234
-                    567 88
+                    <i class="fas fa-phone me-3 text-secondary"></i>Media Sosial
                   </p>
-                  <p>
-                    <i class="fas fa-print me-3 text-secondary"></i> + 01 234
-                    567 89
-                  </p>
+                 
                 </div>
               </div>
             </div>
@@ -140,9 +131,9 @@ function Footer() {
             class="text-center p-4"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}
           >
-            © 2023 Copyright:
-            <a class="text-reset fw-bold" href="#">
-              Edspert.id
+            © 2023 Copyright
+            <a class="text-reset text-decoration-none fw-bold" href="#">
+              : edspert.id
             </a>
           </div>
         </footer>
