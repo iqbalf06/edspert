@@ -2,7 +2,7 @@ import React from "react";
 // import bgfooter from "../../assets/img/footer.png";
 // import { Image, Row, Col } from "react-bootstrap";
 // import style from "./footer.module.css";
-import logo from "../../assets/img/logo_Edspert.png";
+import logo from "../../assets/img/iconEdspert.png";
 import style from "./footer.module.css";
 
 
@@ -57,9 +57,9 @@ function Footer() {
             <div class="container text-center text-md-start mt-5">
               <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <img className={style.logo} src={logo}/>
+                  <img className={style.logo} src={logo}/><span>Edspert</span>
                   {/* <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem me-3 text-secondary"></i>
+                    <i class="fas fa-gem me-3 text-secondary">Edspert</i>
                   </h6> */}
                   <p>
                   Jl. Watugede No.58, Wonorejo, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581
